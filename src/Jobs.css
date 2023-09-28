@@ -1,0 +1,56 @@
+.Jobrow {
+    margin-top: 80px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 80px;
+}
+
+.JobseeButton {
+    margin-top: 50px;
+}
+
+.search-container {
+    margin: 60px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.search-container input[type="text"] {
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    outline: none;
+}
+  
+.search-container input[type="text"]:focus {
+    outline: 2px solid black;
+}
+  
+.search-container input[type="text"]::placeholder {
+    color: #000000;
+}
+
+.JobDeleteButton {
+    background-color: rgb(250, 250, 250);
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    padding: 13px 100px;
+    margin-bottom: 0px;
+    margin-top: -25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.JobDeleteButton:hover {
+   background-color: #adadadc9;
+}

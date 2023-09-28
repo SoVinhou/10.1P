@@ -1,0 +1,61 @@
+.ThankYou-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(219, 219, 219, 0.737), rgba(0, 0, 0, 0.776)), url(./images/payment.jpg);
+}
+
+.ThankYou-img {
+    margin-top: -60px;
+    width: 120px;
+    height: 120px;
+}
+
+.ThankYou-heading {
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.ThankYou-subheading {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.ThankYou-subheading2 {
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.ThankYou-subheading3 {
+    margin-top: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: -50px;
+}
+
+.ThankYou-Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 650px;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.597);
+}

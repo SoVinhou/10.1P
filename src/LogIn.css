@@ -1,0 +1,59 @@
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.737), rgba(42, 42, 42, 0.776)), url(./images/cover2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.LogInContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.597);
+    margin-top: 150px;
+    width: 30%;
+    border-radius: 40px;
+    margin-bottom: 150px;
+}
+  
+input {
+    width: 60%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+  
+button {
+    background-color: #000000f8;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    padding: 13px 100px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+ }
+ 
+button:hover {
+   background-color: #1d1d1dc9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

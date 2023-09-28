@@ -1,0 +1,173 @@
+.NewJobBanner {
+    background-color: black;
+}
+
+.NewJobBanner h1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+  
+label input[type="radio"] {
+    margin-right: 10px;
+}
+
+label input[value="employment"] + span {
+    font-size: 120px;
+  }
+
+.DescribeYourJob {
+    background-color: black;
+}
+
+.DescribeYourJob h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.JobDescription form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.JobDescription label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+  
+.JobDescription input[type="text"],
+.JobDescription textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.ProjectConditionsBanner {
+    margin-top: 70px;
+    background-color: black;
+}
+
+.ProjectConditionsBanner h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.ProjectConditions form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.ProjectConditions label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+  
+.ProjectConditions input[type="text"],
+.ProjectConditions textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.ExperienceBanner {
+    margin-top: 70px;
+    background-color: black;
+}
+
+.ExperienceBanner h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 55px;
+}
+
+
+.Experience form {
+    display: inline-block;
+    align-items: center;
+}
+  
+.Experience input[type="text"],
+.Experience textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: #000000f8;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    display: block;
+    margin: 0 auto;
+    padding: 13px 100px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[disabled] {
+    background-color: grey;
+    cursor: default;
+}
+
+.button:hover {
+    background-color: #1d1d1dc9;
+}
+ 
+.MakePaymentBanner {
+    margin-top: 70px;
+    background-color: black;
+}
+
+.MakePaymentBanner h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
